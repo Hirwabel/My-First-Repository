@@ -1,0 +1,323 @@
+*{
+  padding:0;
+  margin:0;
+  text-decoration:none;
+  list-style:circle;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+ 
+}
+
+nav{
+  background-image:url(img/aboutpage.png);
+  background-size: cover;
+  background-position: center;
+  height:60vh;
+  width:100%;
+  position: relative;
+}
+
+
+.centered{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  color: #fff;
+  font-size:40px;
+}
+
+body{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+
+
+
+
+nav ul{
+  float:right;
+  margin-right:20px;
+  margin-bottom: 29vh;
+}
+
+nav ul li{
+  display:inline-block;
+  line-height:70px;
+  margin:0 5px;
+  position: relative;
+  
+}
+
+nav ul li a{
+  color:#fff;
+  font-size:20px;
+  padding:7px 13px;
+  border-radius:3px;
+} 
+
+
+.discount{
+    text-align: center;
+    height:40px;
+    margin-top:5px;
+   
+    background:red;
+    color:#fff;
+    border-radius:18px;
+    margin-left:2px;
+    margin-right:2px;
+}
+
+.close{
+    float:left;
+    margin-left:8px;
+    
+}
+
+.clickable{
+  color: #fff;
+}
+
+.may {
+    padding-top: 10px;
+    font-size: 20px;
+   
+}
+
+
+
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qt_course_membership_image{
+    height:30vh;
+    width:50vh;
+    margin-top:35px;
+}
+
+.side_content{
+    margin-left:40px;
+    margin-top:20px;
+}
+
+.li{
+  font-weight:bold;
+  font-size: 14px;
+}
+
+.header_class{
+    text-align: center;
+}
+
+.paragraph_class{
+  text-align: center;
+  margin-top: 10px;
+  font-weight:bolder
+}
+
+.button_class {
+  height:40px;
+  width:250px;
+  text-align: center;
+  margin-bottom: 20px;
+  background:red;
+  color:#fff;
+  outline:none;
+  border:none;
+  font-size: 18px;
+  
+}
+
+.button_div{
+ text-align: center;
+  margin-top:30px;
+}
+
+.border_div{
+  border:2px solid #000;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:20px;
+  border-radius:15px;
+ 
+}
+
+
+
+.box_2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qt_course_membership_image_2{
+  height:30vh;
+  width:50vh;
+  margin-top: 35px;
+  
+}
+
+.side_content_2{
+  margin-left:40px;
+  margin-top: 20px;
+}
+
+.header_class_2{
+  text-align: center;
+}
+
+.paragraph_class_2{
+text-align: center;
+margin-top: 10px;
+font-weight:bolder;
+}
+
+.button_class_2 {
+height:40px;
+width:250px;
+text-align: center;
+margin-bottom: 20px;
+background:red;
+color:#fff;
+outline:none;
+border:none;
+font-size: 18px;
+
+}
+
+.button_div_2{
+text-align: center;
+margin-top:30px;
+}
+
+.border_div_2{
+border:2px solid #000;
+margin-left:10px;
+margin-right:10px;
+margin-top:20px;
+border-radius:15px;
+
+}
+
+
+
+
+
+.box_3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qt_course_membership_image_3{
+  height:30vh;
+  width:50vh;
+  margin-top: 35px;
+}
+
+.side_content_3{
+  margin-left:40px;
+  margin-top: 20px;
+}
+
+.header_class_3{
+  text-align: center;
+}
+
+.paragraph_class_3{
+text-align: center;
+margin-top: 10px;
+font-weight:bolder;
+}
+
+.button_class_3 {
+height:40px;
+width:250px;
+text-align: center;
+margin-bottom: 20px;
+background:red;
+color:#fff;
+outline:none;
+border:none;
+font-size: 18px;
+
+}
+
+.button_div_3{
+text-align: center;
+margin-top:30px;
+}
+
+.border_div_3{
+border:2px solid #000;
+margin-left:10px;
+margin-right:10px;
+margin-top:20px;
+border-radius:15px;
+
+}
+
+
+
+.left_side{
+  float:left;
+
+}
+
+.left_side img{
+  margin-top: 30px;
+}
+
+.logo_class{
+  margin-bottom: 0px;
+}
+
+.right_side{
+  margin-top:20px;
+  float:right;
+  
+}
+
+.right_side img{
+
+  margin-right:20px ;
+  height:35px;
+}
+
+.horizontal_line{
+
+  color:#000;
+  
+  margin-bottom:20px;
+  margin-left:25%;
+  margin-right:25%;
+}
+
+.footer{
+  text-align: center;
+  background:#000;
+  height:50px;
+  color:#fff;
+}
+
+
+.footer p{
+  margin-top:20px;
+}
+
+.bottom_background{
+  background:#000;
+  height:20vh;
+  margin-top:30px;
+}
+
+
+

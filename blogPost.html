@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="blogPost.css">
+    <title> Blog Post </title>
+</head>
+<body>
+    <section id="Large">
+        <nav>
+         <div class="polo">
+             
+         </div>
+            
+        
+            <ul>
+                <li><a class="link" href="learnQtGuideProject.html">Home</a></li>
+                <li><a class="link" href="coursesLearnQtGuideProject.html">Courses</a></li>
+                <li><a class="link" href="aboutLearnQtGuideProject.html">About</a></li>
+                <li><a class="link" href="contactLearnQtGuideProject.html">Contact</a></li>
+                <li><a class="link" href="blogLearnQtGuideProject.html">Blog</a></li>
+            </ul>
+            <div class="centered">C++, Qt and QML Training</div>
+
+        </nav>
+        <aside>
+            <div class="side-navbar">
+                <div class="sidebar_border_class">
+                    <div class="black_border">
+                        <div class="image_paragraph_class">
+                            <img src="img/logo.svg" alt="Logo">
+                            <h1>Qt C++ GUI For Beginners</h1>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, consectetur.</p>
+                        </div>
+                        <div class="image_button_class">
+                            <img src="img/qt_courses.png" alt="Qt Courses">
+                            <button class="learn_more_button">Learn More</button>
+                        </div>
+            
+    
+                    </div>
+                    
+                </div>
+
+                <div class="sidebar_border_class_2">
+                    <div class="black_border_2">
+                        <div class="header_keywords">
+                            <h1 class="Tag">Tags</h1>
+                            <div class="grayBorder">
+                                <p>web(58)</p>
+                                <p>fail(37)</p>
+                                <p>dotnet(35)</p>
+                                <p>qt(30)</p>
+                                <p>Review(26)</p>
+                                <p>macos(22)</p>
+                                <p>linux(19)</p>
+                                <p>devops(18)</p>
+                                <p>windows(18)</p>
+                                <p>mestuff(16)</p>
+                                <p>movies(15)</p>
+                                <p>tractor(13)</p>
+                                <p>norway(12)</p>
+                                <p>telegram(12)</p>
+                                <p>python(10)</p>
+                                <p>travel(10)</p>
+                                <p>applescript(9)</p>
+                                <p>embedded(9)</p>
+                                <p>soft(9)</p>
+                            </div>
+
+                            </div>
+                            
+                    </div>    
+                </div>    
+
+                
+                        
+                <div class="sidebar_border_class_3">
+                            <div class="black_border_3">
+                                <div class="header_paragraph_class">
+                                
+                                    <h1>33 Qt Creator tips and tricks</h1>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, consectetur.</p>
+                                </div>
+                                <div class="image_button_class">
+                                    <img src="img/qt_courses.png" alt="Qt Courses">
+                                    <button class="learn_more_button">Learn More</button>
+                                </div>
+            
+                            </div>
+            
+            
+                    
+                            
+                       
+                        </div>
+                                
+               
+        </aside>
+        
+        <h1 class="green_header">Visual Studio Code and CMake for Qt</h1>
+        <div class="time_after_reading">
+            <img class= "timePassed" src="img/calendarWithWhiteBackground.png" alt="Calendar">
+            <p>2021-03-08 |</p>
+            <img class= "timePassed" src="img/watchIcon.png" alt="Watch">
+            <p>16 min read</p>
+
+        </div>
+        <p class="first_paragraph">After numerous promises of how Qbs will be the Qt's default build system, The Qt Company suddenly killed <br> it,announced that qmake is a dead man walking too, and actually Qt is switching to CMake. <br><br> So I guess we should start using CMake for building Qt applications as well. Let's see then what it takes to <br> switch from qmake to CMake with a couple of basic examples.</p>
+        <div class="blog_upper_image">
+            <img src="img/blog_upper_image.png" alt="Blog Upper Image">
+        </div>
+
+        <hr class="dotted_horizontal_line3" ,align="center"  >
+        
+        <div class="nested_paragraph">
+            <p>I also wanted to try Qt development with visual Studio Code,and now is a good occasion for that. <br><br> I tried it on windows 10 with MSVC 2017, however it will work on other systems too.</p>
+        </div>
+
+        <div class="nestedLists">
+        
+        <ul>
+            <li>CMakeLists.txt</li>
+            
+                <ol>
+                    <li class="emptyBulletPoint">Qt Widgets</li>
+                    <li class="emptyBulletPoint">Qt Quick</li>
+                </ol>
+            <li>Visual Studio Code</li>
+        </ul>
+
+
+
+        </div>
+
+       
+        
+        
+
+
+
+        <h1 class="green_header2">CMakeLists.text</h1>
+        <div class="time_after_reading2">
+            <img class= "timePassed2" src="img/calendarWithWhiteBackground.png" alt="Calendar">
+            <p>2021-03-08 |</p>
+            <img class= "timePassed2" src="img/watchIcon.png" alt="Watch">
+            <p>16 min read</p>
+
+        </div>
+        <p class="first_paragraph2">I've never used CMake for anything before,so to get familiar with it i decided to create two very basic <br> applications,one with Qt Widgets and another with Qt Quick.<br><br> Instead of qmake's .pro file CMake uses CMakeLists.txt. And having spent some time i've managed <br> to create correct CMakeLists.txt files for both projects,although i can't tell that it was very <br> straightforwad. <br><br> Lots of examples from the internet didn't work and were way too complx and overloaded in general. <br> Surprisingly, the simplest one turned to be the one from the official Qt documentation - who would've <br> thought as usually it's the other way around. <br><br> Essential thing here is find_package() - I have no idea what black magic it uses to find Qt in my <br> system,but it did find it despite the fact that it is installed in D:\programs\qt\ (not the most <br> common /standard installation path). Most likely it just checks the PATH system variable,because i have <br> D:\programs\qt\5.12.3\msvc2017_64\bin\ there. <br><br>
+        When i tried this on Mac OS, the configure command failed,so i had to provide the path to Qt Manually: </p>
+        <div class="blog_upper_image2"> 
+            <img src="img/blog_upper_image.png" alt="Blog Upper Image">
+        </div>
+
+
+         <div class="Code1">
+            <img src="img/Code1.png"  alt="">
+        
+
+         </div>
+            
+        <div class="nested_paragraph2">
+            <p>What i don't get is why do i need to set target_linl_libraries() in addition to <br> find_package(). I mean, why would I want to find some library if not to link with it? <br><br>
+                WIN32 is an important flag if you're building a GUI application on windows - without it the build will fail <br> Obviously,you don't need it on Mac OS or Linux. <br><br>
+                Note the $(CMake_PROJECT_NAME) construction - that's how you use vraibles in CMake. So instead of <br> writing the name of the project (qt-widgets-cmake) i just refer to the CMAKE_POJECT_NAME <br> variable. And of course you can define your own variables: for instance, i used my variable sources to <br> gather all the source files for add_executable().  </p>
+        </div>
+        
+        
+        <hr class="dotted_horizontal_line2" ,align="center"  >
+  
+
+       
+
+
+
+
+
+
+        <h1 class="green_header3">Qt Quick</h1>
+        <div class="time_after_reading3">
+            <img class= "timePassed3" src="img/calendarWithWhiteBackground.png" alt="Calendar">
+            <p>2021-03-08 |</p>
+            <img class= "timePassed3" src="img/watchIcon.png" alt="Watch">
+            <p>16 min read</p>
+
+        </div>
+        <p class="first_paragraph3"> CMake project file for a Qt Quick application is not that difficult either. However, there are some differences: <br> So here are the changes to be made in CMakeLists.txt: </p>
+        <div class="unorderedLists">
+            <ul>
+                <li class="packedBulledPoints">there's no need in CMAKE_AUTOUIC as you won't be using widget-based .ui forms</li>
+                <li class="packedBulledPoints">instead of Widgets you now need Quick and Qml modules.</li>
+                <li class="packedBulledPoints">since QML files are part of resources, you need to tell CMake about that.</li>
+            </ul>
+        </div>
+ 
+        <div class="blog_upper_image3">
+            <img src="img/blog_upper_image.png" alt="Blog Upper Image">
+        </div>
+
+        <div class="Code2">
+            <img src="img/Code2.png"  alt="">
+        
+
+         </div>
+
+
+        
+        <div class="nested_paragraph3">
+            <p> The source code of both projects including CMakeLists.txt files are available here. </p>
+        </div>
+        
+        <button class="blog_button3">Read more</button>
+
+        <div class="dotted_line-two" >
+            <hr class="dotted_horizontal_line_two" ,align="center" width="40%" >
+        </div>
+
+
+
+
+
+
+
+
+        <h1 class="green_header4"> Visual Studio Code</h1>
+        <div class="time_after_reading4">
+            <img class= "timePassed4" src="img/calendarWithWhiteBackground.png" alt="Calendar">
+            <p>2021-03-08 |</p>
+            <img class= "timePassed4" src="img/watchIcon.png" alt="Watch">
+            <p>16 min read</p>
+
+        </div>
+        <p class="first_paragraph4"> First, install CMake Tools extension, because it conveniently does all the work of calling CMake with the right <br> set of arguments for configure and build tasks. <br><br>
+         Open your project folder in Visual Studio Code, press Ctrl + Shift + P and run CMake: <br>  Configure. First time it will ask you for a kit/toolchain - what compiler should be used for building your <br> application. On windows that choice can look like this: </p>
+
+         <div class="Code3">
+            <img src="img/Code3.png"  alt="">
+        
+
+         </div>
+
+
+        <div class="blog_upper_image4">
+            <img src="img/blog_upper_image.png" alt="Blog Upper Image">
+        </div>
+        
+        
+        <div class="nested_paragraph5">
+            <p>And here is the configure output: <br> </p>
+
+        </div>
+        <div class="Code4">
+            <img src="img/Code4.png"  alt="">
+        
+
+         </div>
+
+        <div class="nested_paragraph6">
+            <p>If it's all good, run CMake: Build and you get your application executable in the build folder. Here's it's output: <br><br> </p>
+
+        </div>
+
+        <div class="Code5">
+            <img src="img/Code5.png"  alt="">
+        
+
+         </div>
+
+        <div class="nested_paragraph7">
+            <p>Your application is ready to run. <br><br> Well, it turned out to be easier than i thought - to use CMake for building Qt applications though i spent a <br> couple of days till i made it work. But as i read in several places, making simple things with CMake is <br> simple, it's custom things that make everything horrible and awful - something i am yet to see. <br><br> And when it comes to Visual Studio Code as an IDE for Qt development, i have to admit - Qt Creator is still <br> better. Especially it becomes obvious when you iterate between Designer and VS Code, or constantly read <br> the Qt documentation because auto-complete feature sucks big ass for QML at the moment(yes,even <br> bigger one than in Qt Creator - there is simply none). <br><br> </p>
+
+        </div>
+
+        <hr class="aboveCommentsLine" ,align="center"  >
+
+        <p>Comments:4</p>
+
+        <div class="nested_paragraph8">
+            <p>  You can leave a comment using this GitHub issue. </p>
+            <p> </p>
+        </div>
+
+        <div class="commentSystem3">
+            <img src="img/gakwaya_bg.jpg" class="commentImage3" alt="">
+            <p class="textComment3"><highlight class="color3">studoot</highlight> commented at Fri Nov 2019 16:15:09 GMT + 02:00 (Central Africa Time)</p>
+        </div>
+  
+
+
+
+
+        <div class="nested_paragraph9">
+            <p>find_package and target_link_libraries come into their own when you have multiple targets. <br> find_package locates the Qt libraries, while target_link_libraries allows you to <br><br> For example,if i had a library(called utils) that doesn't use Qt at all, another library(called model) that uses Qt <br> Core, and an executable(called app) that uses Qt's GUI components, I could do something like this: <br><br> </p>
+        </div>
+
+        <div class="Code6">
+            <img src="img/Code6.png"  alt="">
+        
+
+         </div>
+
+         <div class="nested_paragraph10">
+             <p>I've been using CMake for a while and have found it pretty good, even for the custom things - adding things like <br> test coverage, use of sanitisers, static analysis etc is all pretty simple, and can be moved into custom modules so <br> you can reuse the same CMake code on multiple projects. <br><br> I've also found CMake to be easiest tool for building C++ projects that are required for multiple platforms(mainly Linux & Windows for me).</p>
+         </div>
+
+
+
+
+
+        
+
+    <div class="commentSystem">
+        <img src="img/gakwaya_bg.jpg" class="commentImage" alt="">
+        <p class="textComment"><highlight class="color">retitrav</highlight> commented at Fri Nov 2019 17:01:20 GMT + 02:00 (Central Africa Time)</p>
+    </div> 
+    
+
+        
+        <div class="nested_paragraph11">
+            <p> Indeed, that makes sense. It didn't occur to me that i can have several targets with a different set of libraries to link with.</p>
+        </div>
+        
+        
+        <button class="blog_button4">Read more</button>
+        <hr class="dotted_horizontal_line2" ,align="center"  >
+
+
+
+    </section>
+
+
+
+
+    
+
+</div>
